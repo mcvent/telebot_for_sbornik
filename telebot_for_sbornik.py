@@ -10,6 +10,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     ]
 
+
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     # Путь к локальному файлу
